@@ -1,0 +1,228 @@
+{
+  "CatalogVersion": "1",
+  "Catalog": [
+    {
+      "ItemId": "One",
+      "ItemClass": null,
+      "CatalogVersion": "1",
+      "DisplayName": "My first item",
+      "Description": null,
+      "VirtualCurrencyPrices": null,
+      "RealCurrencyPrices": null,
+      "Tags": null,
+      "CustomData": null,
+      "Consumable": null,
+      "Container": null,
+      "Bundle": null,
+      "CanBecomeCharacter": false,
+      "IsStackable": false,
+      "IsTradable": false,
+      "ItemImageUrl": null,
+      "IsLimitedEdition": false,
+      "InitialLimitedEditionCount": 0,
+      "ActivatedMembership": null
+    },
+    {
+      "ItemId": "hint50_50",
+      "ItemClass": "hint50_50",
+      "CatalogVersion": "1",
+      "DisplayName": "Подсказка 50 на 50",
+      "Description": "Оставляет половину ответов, включая правильный",
+      "VirtualCurrencyPrices": {
+        "GD": 30
+      },
+      "RealCurrencyPrices": {},
+      "Tags": [
+        "hint",
+        "self",
+        "good"
+      ],
+      "CustomData": null,
+      "Consumable": {
+        "UsageCount": 1,
+        "UsagePeriod": null,
+        "UsagePeriodGroup": null
+      },
+      "Container": null,
+      "Bundle": null,
+      "CanBecomeCharacter": false,
+      "IsStackable": true,
+      "IsTradable": false,
+      "ItemImageUrl": null,
+      "IsLimitedEdition": false,
+      "InitialLimitedEditionCount": 0,
+      "ActivatedMembership": null
+    },
+    {
+      "ItemId": "hint_confusion",
+      "ItemClass": "hint_confusion",
+      "CatalogVersion": "1",
+      "DisplayName": "Подсказка Замешательство на соперника",
+      "Description": "Перемешивает слова в вопросе для выбранного соперника",
+      "VirtualCurrencyPrices": {
+        "GD": 30
+      },
+      "RealCurrencyPrices": null,
+      "Tags": [
+        "hint",
+        "other",
+        "bad"
+      ],
+      "CustomData": null,
+      "Consumable": {
+        "UsageCount": 1,
+        "UsagePeriod": null,
+        "UsagePeriodGroup": null
+      },
+      "Container": null,
+      "Bundle": null,
+      "CanBecomeCharacter": false,
+      "IsStackable": true,
+      "IsTradable": false,
+      "ItemImageUrl": null,
+      "IsLimitedEdition": false,
+      "InitialLimitedEditionCount": 0,
+      "ActivatedMembership": null
+    },
+    {
+      "ItemId": "hint_fog_question",
+      "ItemClass": "hint_fog_question",
+      "CatalogVersion": "1",
+      "DisplayName": "Подсказка Туман на вопрос противника",
+      "Description": "Заволакивает поле с вопросом для выбранного соперника, постепенно рассеивается",
+      "VirtualCurrencyPrices": {
+        "GD": 30
+      },
+      "RealCurrencyPrices": {},
+      "Tags": [
+        "hint",
+        "other",
+        "bad"
+      ],
+      "CustomData": null,
+      "Consumable": {
+        "UsageCount": 1,
+        "UsagePeriod": null,
+        "UsagePeriodGroup": null
+      },
+      "Container": null,
+      "Bundle": null,
+      "CanBecomeCharacter": false,
+      "IsStackable": true,
+      "IsTradable": false,
+      "ItemImageUrl": null,
+      "IsLimitedEdition": false,
+      "InitialLimitedEditionCount": 0,
+      "ActivatedMembership": null
+    },
+    {
+      "ItemId": "hint_fog_answer",
+      "ItemClass": "hint_fog_answer",
+      "CatalogVersion": "1",
+      "DisplayName": "Подсказка Туман на ответы противника",
+      "Description": "Заволакивает поле с ответами для выбранного соперника, постепенно рассеивается",
+      "VirtualCurrencyPrices": {
+        "GD": 30
+      },
+      "RealCurrencyPrices": {},
+      "Tags": [
+        "hint",
+        "other",
+        "bad"
+      ],
+      "CustomData": null,
+      "Consumable": {
+        "UsageCount": 1,
+        "UsagePeriod": null,
+        "UsagePeriodGroup": null
+      },
+      "Container": null,
+      "Bundle": null,
+      "CanBecomeCharacter": false,
+      "IsStackable": true,
+      "IsTradable": false,
+      "ItemImageUrl": null,
+      "IsLimitedEdition": false,
+      "InitialLimitedEditionCount": 0,
+      "ActivatedMembership": null
+    },
+    {
+      "ItemId": "key",
+      "ItemClass": "key",
+      "CatalogVersion": "1",
+      "DisplayName": "Ключ",
+      "Description": "Открывает коробку",
+      "VirtualCurrencyPrices": {
+        "GD": 20
+      },
+      "RealCurrencyPrices": {},
+      "Tags": [],
+      "CustomData": "{}",
+      "Consumable": {
+        "UsageCount": 1,
+        "UsagePeriod": null,
+        "UsagePeriodGroup": null
+      },
+      "Container": null,
+      "Bundle": null,
+      "CanBecomeCharacter": false,
+      "IsStackable": true,
+      "IsTradable": false,
+      "ItemImageUrl": null,
+      "IsLimitedEdition": false,
+      "InitialLimitedEditionCount": 0,
+      "ActivatedMembership": null
+    },
+    {
+      "ItemId": "hint_container",
+      "ItemClass": "hint_container",
+      "CatalogVersion": "1",
+      "DisplayName": null,
+      "Description": null,
+      "VirtualCurrencyPrices": {},
+      "RealCurrencyPrices": null,
+      "Tags": [
+        "container"
+      ],
+      "CustomData": null,
+      "Consumable": {
+        "UsageCount": 1,
+        "UsagePeriod": null,
+        "UsagePeriodGroup": null
+      },
+      "Container": {
+        "KeyItemId": "key",
+        "ItemContents": [],
+        "ResultTableContents": [
+          "dt_fog"
+        ],
+        "VirtualCurrencyContents": null
+      },
+      "Bundle": null,
+      "CanBecomeCharacter": false,
+      "IsStackable": false,
+      "IsTradable": false,
+      "ItemImageUrl": null,
+      "IsLimitedEdition": false,
+      "InitialLimitedEditionCount": 0,
+      "ActivatedMembership": null
+    }
+  ],
+  "DropTables": [
+    {
+      "TableId": "dt_fog",
+      "Nodes": [
+        {
+          "ResultItemType": "ItemId",
+          "ResultItem": "hint_fog_question",
+          "Weight": 3
+        },
+        {
+          "ResultItemType": "ItemId",
+          "ResultItem": "hint_fog_answer",
+          "Weight": 1
+        }
+      ]
+    }
+  ]
+}

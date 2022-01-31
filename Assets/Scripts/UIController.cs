@@ -64,9 +64,9 @@ public class UIController : MonoBehaviourPunCallbacks
 
         // Èìèòàöèÿ äîëãîãî êîííåêòà
         connectingText.text = "Connecting...";
-        await Task.Delay(2000);
-        connectingText.text = "Connected. Enåtering the lobby...";
         await Task.Delay(1000);
+        connectingText.text = "Connected. Enåtering the lobby...";
+        await Task.Delay(500);
 
         PlayFabClientAPI.LoginWithPlayFab(request,
             result =>
